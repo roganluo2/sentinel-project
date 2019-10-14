@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="717e4fee-e24b-4588-8182-c5f96f68b162" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ReQenLovBtFK3ug2r4wlOTFLug" />
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.26764706" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SentinelConsumerApplication">
+    <configuration name="Bootstrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sentinel.Bootstrap" />
+      <module name="sentinelproviderserver" />
+      <option name="VM_PARAMETERS" value="-Dproject.name=App-Demo -Dcsp.sentinel.dashboard.server=120.79.226.150:9999 -Dcsp.sentinel.log.use.pid=true" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sentinel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClusterServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sentinel.ClusterServer" />
+      <module name="sentineltokenserver" />
+      <option name="VM_PARAMETERS" value="-Dproject.name=App-Demo -Dcsp.sentinel.dashboard.server=120.79.226.150:9999 -Dcsp.sentinel.log.use.pid=true" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sentinel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sentinel-server2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.sentinel.Bootstrap" />
+      <module name="sentinelproviderserver" />
+      <option name="VM_PARAMETERS" value="-Dproject.name=App-Demo -Dcsp.sentinel.dashboard.server=120.79.226.150:9999 -Dcsp.sentinel.log.use.pid=true -Ddubbo.protocol.port=20881" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sentinel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SentinelConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sentinel-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sentinel.sentinelconsumer.SentinelConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.sentinel-server2" />
+      <item itemvalue="Application.Bootstrap" />
+      <item itemvalue="Application.ClusterServer" />
+      <item itemvalue="Spring Boot.SentinelConsumerApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Bootstrap" />
+        <item itemvalue="Application.ClusterServer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="717e4fee-e24b-4588-8182-c5f96f68b162" name="Default Changelist" comment="" />
+      <created>1570025179470</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570025179470</updated>
+      <workItem from="1570025186013" duration="963000" />
+      <workItem from="1570057082685" duration="112000" />
+      <workItem from="1570057220481" duration="7189000" />
+      <workItem from="1570577749593" duration="3112000" />
+      <workItem from="1570662612443" duration="5708000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

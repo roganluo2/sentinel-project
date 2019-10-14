@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/sentinel-consumer/sentinel-consumer.iml" filepath="$PROJECT_DIR$/sentinel-consumer/sentinel-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/sentinel-project.iml" filepath="$PROJECT_DIR$/.idea/sentinel-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sentinelprovider/sentinelprovider.iml" filepath="$PROJECT_DIR$/sentinelprovider/sentinelprovider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sentinelprovider/sentinel-provider-api/sentinelproviderapi.iml" filepath="$PROJECT_DIR$/sentinelprovider/sentinel-provider-api/sentinelproviderapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sentinelprovider/sentinel-provider-server/sentinelproviderserver.iml" filepath="$PROJECT_DIR$/sentinelprovider/sentinel-provider-server/sentinelproviderserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sentineltokenserver/sentineltokenserver.iml" filepath="$PROJECT_DIR$/sentineltokenserver/sentineltokenserver.iml" />
+    </modules>
+  </component>
+</project>

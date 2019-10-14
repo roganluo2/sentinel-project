@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sentinel-consumer" />
+        <module name="sentinelproviderapi" />
+        <module name="sentinelproviderserver" />
+        <module name="sentineltokenserver" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sentinel-consumer" target="1.8" />
+      <module name="sentinelprovider" target="1.8" />
+      <module name="sentinelproviderapi" target="1.8" />
+      <module name="sentinelproviderserver" target="1.8" />
+      <module name="sentineltokenserver" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="sentinel-consumer" options="-parameters" />
+      <module name="sentinelproviderserver" options="-parameters" />
+    </option>
+  </component>
+</project>

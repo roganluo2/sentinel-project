@@ -1,0 +1,292 @@
+2019-10-10 07:37:14,167 [main] [io.netty.util.internal.logging.InternalLoggerFactory] [DEBUG] - Using SLF4J as the default logging framework
+2019-10-10 07:37:14,195 [main] [com.alibaba.nacos.client.utils.LogUtils] [WARN] - Init Nacos Logging fail, message: org/apache/logging/log4j/core/lookup/StrLookup
+2019-10-10 07:37:14,219 [main] [com.alibaba.nacos.client.utils.ParamUtil] [INFO] - [settings] [req-serv] nacos-server port:8848
+2019-10-10 07:37:14,219 [main] [com.alibaba.nacos.client.utils.ParamUtil] [INFO] - [settings] [http-client] connect timeout:1000
+2019-10-10 07:37:14,227 [main] [com.alibaba.nacos.client.utils.ParamUtil] [INFO] - NACOS_CLIENT_VERSION: ${project.version}
+2019-10-10 07:37:14,229 [main] [com.alibaba.nacos.client.utils.ParamUtil] [INFO] - PER_TASK_CONFIG_SIZE: 3000.0
+2019-10-10 07:37:14,240 [main] [com.alibaba.nacos.client.identify.CredentialWatcher] [INFO] - null No credential found
+2019-10-10 07:37:14,260 [main] [com.alibaba.nacos.client.config.impl.LocalConfigInfoProcessor] [INFO] - LOCAL_SNAPSHOT_PATH:C:\Users\1\nacos\config
+2019-10-10 07:37:14,262 [main] [com.alibaba.nacos.client.config.impl.ClientWorker] [INFO] - [fixed-120.79.226.150_8848] [subscribe] App-Demo-flow-rules+SENTINEL_GROUP
+2019-10-10 07:37:14,282 [main] [com.alibaba.nacos.client.config.impl.CacheData] [INFO] - [fixed-120.79.226.150_8848] [add-listener] ok, tenant=, dataId=App-Demo-flow-rules, group=SENTINEL_GROUP, cnt=1
+2019-10-10 07:37:14,339 [com.alibaba.nacos.client.Worker.longPollingfixed-120.79.226.150_8848] [com.alibaba.nacos.client.config.impl.Limiter] [INFO] - limitTime:5.0
+2019-10-10 07:37:16,209 [main] [io.netty.channel.MultithreadEventLoopGroup] [DEBUG] - -Dio.netty.eventLoopThreads: {}
+2019-10-10 07:37:16,234 [main] [io.netty.channel.nio.NioEventLoop] [DEBUG] - -Dio.netty.noKeySetOptimization: {}
+2019-10-10 07:37:16,235 [main] [io.netty.channel.nio.NioEventLoop] [DEBUG] - -Dio.netty.selectorAutoRebuildThreshold: {}
+2019-10-10 07:37:16,255 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - Platform: Windows
+2019-10-10 07:37:16,257 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - -Dio.netty.noUnsafe: {}
+2019-10-10 07:37:16,257 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - Java version: {}
+2019-10-10 07:37:16,258 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - sun.misc.Unsafe.theUnsafe: available
+2019-10-10 07:37:16,259 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - sun.misc.Unsafe.copyMemory: available
+2019-10-10 07:37:16,260 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.Buffer.address: available
+2019-10-10 07:37:16,260 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - direct buffer constructor: available
+2019-10-10 07:37:16,261 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.Bits.unaligned: available, {}
+2019-10-10 07:37:16,264 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-10-10 07:37:16,264 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.DirectByteBuffer.<init>(long, int): {}
+2019-10-10 07:37:16,264 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - sun.misc.Unsafe: {}
+2019-10-10 07:37:16,265 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.tmpdir: {} (java.io.tmpdir)
+2019-10-10 07:37:16,265 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.bitMode: {} (sun.arch.data.model)
+2019-10-10 07:37:16,266 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.maxDirectMemory: {} bytes
+2019-10-10 07:37:16,267 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.uninitializedArrayAllocationThreshold: {}
+2019-10-10 07:37:16,268 [main] [io.netty.util.internal.CleanerJava6] [DEBUG] - java.nio.ByteBuffer.cleaner(): available
+2019-10-10 07:37:16,268 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.noPreferDirect: {}
+2019-10-10 07:37:16,280 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - org.jctools-core.MpscChunkedArrayQueue: available
+2019-10-10 07:37:16,347 [main] [io.netty.util.ResourceLeakDetector] [DEBUG] - -D{}: {}
+2019-10-10 07:37:16,347 [main] [io.netty.util.ResourceLeakDetector] [DEBUG] - -D{}: {}
+2019-10-10 07:37:16,350 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.numHeapArenas: {}
+2019-10-10 07:37:16,350 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.numDirectArenas: {}
+2019-10-10 07:37:16,350 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.pageSize: {}
+2019-10-10 07:37:16,350 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.maxOrder: {}
+2019-10-10 07:37:16,351 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.chunkSize: {}
+2019-10-10 07:37:16,351 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.tinyCacheSize: {}
+2019-10-10 07:37:16,351 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.smallCacheSize: {}
+2019-10-10 07:37:16,351 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.normalCacheSize: {}
+2019-10-10 07:37:16,351 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.maxCachedBufferCapacity: {}
+2019-10-10 07:37:16,351 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.cacheTrimInterval: {}
+2019-10-10 07:37:16,351 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.useCacheForAllThreads: {}
+2019-10-10 07:37:16,355 [main] [io.netty.util.internal.InternalThreadLocalMap] [DEBUG] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: {}
+2019-10-10 07:37:16,356 [main] [io.netty.util.internal.InternalThreadLocalMap] [DEBUG] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: {}
+2019-10-10 07:37:16,383 [main] [io.netty.channel.DefaultChannelId] [DEBUG] - -Dio.netty.processId: {} (auto-detected)
+2019-10-10 07:37:16,386 [main] [io.netty.util.NetUtil] [DEBUG] - -Djava.net.preferIPv4Stack: {}
+2019-10-10 07:37:16,386 [main] [io.netty.util.NetUtil] [DEBUG] - -Djava.net.preferIPv6Addresses: {}
+2019-10-10 07:37:16,902 [main] [io.netty.util.NetUtil] [DEBUG] - Loopback interface: {} ({}, {})
+2019-10-10 07:37:16,903 [main] [io.netty.util.NetUtil] [DEBUG] - Failed to get SOMAXCONN from sysctl and file {}. Default: {}
+2019-10-10 07:37:17,469 [main] [io.netty.channel.DefaultChannelId] [DEBUG] - -Dio.netty.machineId: {} (auto-detected)
+2019-10-10 07:37:18,049 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.allocator.type: {}
+2019-10-10 07:37:18,049 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.threadLocalDirectBufferSize: {}
+2019-10-10 07:37:18,050 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.maxThreadLocalCharBufferSize: {}
+2019-10-10 07:37:18,070 [nioEventLoopGroup-2-1] [io.netty.handler.logging.LoggingHandler] [INFO] - [id: 0xbcc27e6c] REGISTERED
+2019-10-10 07:37:18,071 [nioEventLoopGroup-2-1] [io.netty.handler.logging.LoggingHandler] [INFO] - [id: 0xbcc27e6c] BIND: 0.0.0.0/0.0.0.0:9999
+2019-10-10 07:37:18,074 [nioEventLoopGroup-2-1] [io.netty.handler.logging.LoggingHandler] [INFO] - [id: 0xbcc27e6c, L:/0:0:0:0:0:0:0:0:9999] ACTIVE
+2019-10-10 07:37:46,001 [com.alibaba.nacos.client.Worker.longPollingfixed-120.79.226.150_8848] [com.alibaba.nacos.client.config.http.ServerHttpAgent] [ERROR] - [NACOS SocketTimeoutException]
+2019-10-10 07:37:46,002 [com.alibaba.nacos.client.Worker.longPollingfixed-120.79.226.150_8848] [com.alibaba.nacos.client.config.http.ServerHttpAgent] [ERROR] - no available server
+2019-10-10 07:37:46,005 [com.alibaba.nacos.client.Worker.longPollingfixed-120.79.226.150_8848] [com.alibaba.nacos.client.config.impl.ClientWorker] [ERROR] - [fixed-120.79.226.150_8848] [check-update] get changed dataId exception
+java.net.ConnectException: no available server
+	at com.alibaba.nacos.client.config.http.ServerHttpAgent.httpPost(ServerHttpAgent.java:141)
+	at com.alibaba.nacos.client.config.http.MetricsHttpAgent.httpPost(MetricsHttpAgent.java:64)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateConfigStr(ClientWorker.java:361)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateDataIds(ClientWorker.java:335)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$LongPollingRunnable.run(ClientWorker.java:478)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2019-10-10 07:51:08,467 [main] [io.netty.util.internal.logging.InternalLoggerFactory] [DEBUG] - Using SLF4J as the default logging framework
+2019-10-10 07:51:08,480 [main] [com.alibaba.nacos.client.utils.LogUtils] [WARN] - Init Nacos Logging fail, message: org/apache/logging/log4j/core/lookup/StrLookup
+2019-10-10 07:51:08,496 [main] [com.alibaba.nacos.client.utils.ParamUtil] [INFO] - [settings] [req-serv] nacos-server port:8848
+2019-10-10 07:51:08,496 [main] [com.alibaba.nacos.client.utils.ParamUtil] [INFO] - [settings] [http-client] connect timeout:1000
+2019-10-10 07:51:08,501 [main] [com.alibaba.nacos.client.utils.ParamUtil] [INFO] - NACOS_CLIENT_VERSION: ${project.version}
+2019-10-10 07:51:08,502 [main] [com.alibaba.nacos.client.utils.ParamUtil] [INFO] - PER_TASK_CONFIG_SIZE: 3000.0
+2019-10-10 07:51:08,508 [main] [com.alibaba.nacos.client.identify.CredentialWatcher] [INFO] - App-Demo No credential found
+2019-10-10 07:51:08,525 [main] [com.alibaba.nacos.client.config.impl.LocalConfigInfoProcessor] [INFO] - LOCAL_SNAPSHOT_PATH:C:\Users\1\nacos\config
+2019-10-10 07:51:08,526 [main] [com.alibaba.nacos.client.config.impl.ClientWorker] [INFO] - [fixed-120.79.226.150_8848] [subscribe] App-Demo-flow-rules+SENTINEL_GROUP
+2019-10-10 07:51:08,542 [main] [com.alibaba.nacos.client.config.impl.CacheData] [INFO] - [fixed-120.79.226.150_8848] [add-listener] ok, tenant=, dataId=App-Demo-flow-rules, group=SENTINEL_GROUP, cnt=1
+2019-10-10 07:51:08,588 [com.alibaba.nacos.client.Worker.longPollingfixed-120.79.226.150_8848] [com.alibaba.nacos.client.config.impl.Limiter] [INFO] - limitTime:5.0
+2019-10-10 07:51:09,310 [com.alibaba.nacos.client.Worker.longPollingfixed-120.79.226.150_8848] [com.alibaba.nacos.client.config.impl.ClientWorker] [INFO] - [fixed-120.79.226.150_8848] [polling-resp] config changed. dataId=App-Demo-flow-rules, group=SENTINEL_GROUP
+2019-10-10 07:51:09,312 [main] [com.alibaba.nacos.client.config.utils.JVMUtil] [INFO] - isMultiInstance:false
+2019-10-10 07:51:09,343 [com.alibaba.nacos.client.Worker.longPollingfixed-120.79.226.150_8848] [com.alibaba.nacos.client.config.impl.ClientWorker] [INFO] - [fixed-120.79.226.150_8848] [data-received] dataId=App-Demo-flow-rules, group=SENTINEL_GROUP, tenant=null, md5=be5b7e2543769659796d1a4fbad5cd60, content=[
+	{
+		"resource": "com.sentinel.ISentinelService:sayHello(java.lang.String)",
+		"grade": 1,
+		"...
+2019-10-10 07:51:09,344 [com.alibaba.nacos.client.Worker.longPollingfixed-120.79.226.150_8848] [com.alibaba.nacos.client.config.impl.CacheData] [INFO] - [fixed-120.79.226.150_8848] [notify-listener] time cost=0ms in ClientWorker, dataId=App-Demo-flow-rules, group=SENTINEL_GROUP, md5=be5b7e2543769659796d1a4fbad5cd60, listener=com.alibaba.csp.sentinel.datasource.nacos.NacosDataSource$1@112ada2f 
+2019-10-10 07:51:09,487 [sentinel-nacos-ds-update-thread-1] [com.alibaba.nacos.client.config.impl.CacheData] [INFO] - [fixed-120.79.226.150_8848] [notify-ok] dataId=App-Demo-flow-rules, group=SENTINEL_GROUP, md5=be5b7e2543769659796d1a4fbad5cd60, listener=com.alibaba.csp.sentinel.datasource.nacos.NacosDataSource$1@112ada2f 
+2019-10-10 07:51:09,518 [main] [io.netty.channel.MultithreadEventLoopGroup] [DEBUG] - -Dio.netty.eventLoopThreads: {}
+2019-10-10 07:51:09,560 [main] [io.netty.channel.nio.NioEventLoop] [DEBUG] - -Dio.netty.noKeySetOptimization: {}
+2019-10-10 07:51:09,560 [main] [io.netty.channel.nio.NioEventLoop] [DEBUG] - -Dio.netty.selectorAutoRebuildThreshold: {}
+2019-10-10 07:51:09,594 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - Platform: Windows
+2019-10-10 07:51:09,597 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - -Dio.netty.noUnsafe: {}
+2019-10-10 07:51:09,597 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - Java version: {}
+2019-10-10 07:51:09,599 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - sun.misc.Unsafe.theUnsafe: available
+2019-10-10 07:51:09,600 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - sun.misc.Unsafe.copyMemory: available
+2019-10-10 07:51:09,602 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.Buffer.address: available
+2019-10-10 07:51:09,603 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - direct buffer constructor: available
+2019-10-10 07:51:09,604 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.Bits.unaligned: available, {}
+2019-10-10 07:51:09,605 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-10-10 07:51:09,605 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.DirectByteBuffer.<init>(long, int): {}
+2019-10-10 07:51:09,605 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - sun.misc.Unsafe: {}
+2019-10-10 07:51:09,606 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.tmpdir: {} (java.io.tmpdir)
+2019-10-10 07:51:09,607 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.bitMode: {} (sun.arch.data.model)
+2019-10-10 07:51:09,610 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.maxDirectMemory: {} bytes
+2019-10-10 07:51:09,610 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.uninitializedArrayAllocationThreshold: {}
+2019-10-10 07:51:09,612 [main] [io.netty.util.internal.CleanerJava6] [DEBUG] - java.nio.ByteBuffer.cleaner(): available
+2019-10-10 07:51:09,613 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.noPreferDirect: {}
+2019-10-10 07:51:09,629 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - org.jctools-core.MpscChunkedArrayQueue: available
+2019-10-10 07:51:09,703 [main] [io.netty.util.ResourceLeakDetector] [DEBUG] - -D{}: {}
+2019-10-10 07:51:09,703 [main] [io.netty.util.ResourceLeakDetector] [DEBUG] - -D{}: {}
+2019-10-10 07:51:09,705 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.numHeapArenas: {}
+2019-10-10 07:51:09,706 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.numDirectArenas: {}
+2019-10-10 07:51:09,706 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.pageSize: {}
+2019-10-10 07:51:09,706 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.maxOrder: {}
+2019-10-10 07:51:09,706 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.chunkSize: {}
+2019-10-10 07:51:09,706 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.tinyCacheSize: {}
+2019-10-10 07:51:09,706 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.smallCacheSize: {}
+2019-10-10 07:51:09,706 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.normalCacheSize: {}
+2019-10-10 07:51:09,706 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.maxCachedBufferCapacity: {}
+2019-10-10 07:51:09,706 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.cacheTrimInterval: {}
+2019-10-10 07:51:09,707 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.useCacheForAllThreads: {}
+2019-10-10 07:51:09,710 [main] [io.netty.util.internal.InternalThreadLocalMap] [DEBUG] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: {}
+2019-10-10 07:51:09,710 [main] [io.netty.util.internal.InternalThreadLocalMap] [DEBUG] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: {}
+2019-10-10 07:51:09,731 [main] [io.netty.channel.DefaultChannelId] [DEBUG] - -Dio.netty.processId: {} (auto-detected)
+2019-10-10 07:51:09,734 [main] [io.netty.util.NetUtil] [DEBUG] - -Djava.net.preferIPv4Stack: {}
+2019-10-10 07:51:09,734 [main] [io.netty.util.NetUtil] [DEBUG] - -Djava.net.preferIPv6Addresses: {}
+2019-10-10 07:51:10,295 [main] [io.netty.util.NetUtil] [DEBUG] - Loopback interface: {} ({}, {})
+2019-10-10 07:51:10,297 [main] [io.netty.util.NetUtil] [DEBUG] - Failed to get SOMAXCONN from sysctl and file {}. Default: {}
+2019-10-10 07:51:10,862 [main] [io.netty.channel.DefaultChannelId] [DEBUG] - -Dio.netty.machineId: {} (auto-detected)
+2019-10-10 07:51:11,397 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.allocator.type: {}
+2019-10-10 07:51:11,397 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.threadLocalDirectBufferSize: {}
+2019-10-10 07:51:11,397 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.maxThreadLocalCharBufferSize: {}
+2019-10-10 07:51:11,414 [nioEventLoopGroup-2-1] [io.netty.handler.logging.LoggingHandler] [INFO] - [id: 0x9a0f08f7] REGISTERED
+2019-10-10 07:51:11,415 [nioEventLoopGroup-2-1] [io.netty.handler.logging.LoggingHandler] [INFO] - [id: 0x9a0f08f7] BIND: 0.0.0.0/0.0.0.0:9999
+2019-10-10 07:51:11,418 [nioEventLoopGroup-2-1] [io.netty.handler.logging.LoggingHandler] [INFO] - [id: 0x9a0f08f7, L:/0:0:0:0:0:0:0:0:9999] ACTIVE
+2019-10-10 08:33:53,240 [main] [io.netty.util.internal.logging.InternalLoggerFactory] [DEBUG] - Using SLF4J as the default logging framework
+2019-10-10 08:33:53,256 [main] [com.alibaba.nacos.client.utils.LogUtils] [WARN] - Init Nacos Logging fail, message: org/apache/logging/log4j/core/lookup/StrLookup
+2019-10-10 08:33:53,271 [main] [com.alibaba.nacos.client.utils.ParamUtil] [INFO] - [settings] [req-serv] nacos-server port:8848
+2019-10-10 08:33:53,271 [main] [com.alibaba.nacos.client.utils.ParamUtil] [INFO] - [settings] [http-client] connect timeout:1000
+2019-10-10 08:33:53,277 [main] [com.alibaba.nacos.client.utils.ParamUtil] [INFO] - NACOS_CLIENT_VERSION: ${project.version}
+2019-10-10 08:33:53,278 [main] [com.alibaba.nacos.client.utils.ParamUtil] [INFO] - PER_TASK_CONFIG_SIZE: 3000.0
+2019-10-10 08:33:53,283 [main] [com.alibaba.nacos.client.identify.CredentialWatcher] [INFO] - App-Demo No credential found
+2019-10-10 08:33:53,298 [main] [com.alibaba.nacos.client.config.impl.LocalConfigInfoProcessor] [INFO] - LOCAL_SNAPSHOT_PATH:C:\Users\1\nacos\config
+2019-10-10 08:33:53,302 [main] [com.alibaba.nacos.client.config.utils.JVMUtil] [INFO] - isMultiInstance:false
+2019-10-10 08:33:53,308 [main] [com.alibaba.nacos.client.config.impl.ClientWorker] [INFO] - [fixed-120.79.226.150_8848] [subscribe] App-Demo-flow-rules+SENTINEL_GROUP
+2019-10-10 08:33:53,319 [main] [com.alibaba.nacos.client.config.impl.CacheData] [INFO] - [fixed-120.79.226.150_8848] [add-listener] ok, tenant=, dataId=App-Demo-flow-rules, group=SENTINEL_GROUP, cnt=1
+2019-10-10 08:33:53,355 [com.alibaba.nacos.client.Worker.longPollingfixed-120.79.226.150_8848] [com.alibaba.nacos.client.config.impl.Limiter] [INFO] - limitTime:5.0
+2019-10-10 08:33:53,999 [com.alibaba.nacos.client.Worker.longPollingfixed-120.79.226.150_8848] [com.alibaba.nacos.client.config.impl.CacheData] [INFO] - [fixed-120.79.226.150_8848] [notify-listener] time cost=1ms in ClientWorker, dataId=App-Demo-flow-rules, group=SENTINEL_GROUP, md5=be5b7e2543769659796d1a4fbad5cd60, listener=com.alibaba.csp.sentinel.datasource.nacos.NacosDataSource$1@358b77a2 
+2019-10-10 08:33:54,104 [sentinel-nacos-ds-update-thread-1] [com.alibaba.nacos.client.config.impl.CacheData] [INFO] - [fixed-120.79.226.150_8848] [notify-ok] dataId=App-Demo-flow-rules, group=SENTINEL_GROUP, md5=be5b7e2543769659796d1a4fbad5cd60, listener=com.alibaba.csp.sentinel.datasource.nacos.NacosDataSource$1@358b77a2 
+2019-10-10 08:33:54,141 [main] [io.netty.channel.MultithreadEventLoopGroup] [DEBUG] - -Dio.netty.eventLoopThreads: {}
+2019-10-10 08:33:54,165 [main] [io.netty.channel.nio.NioEventLoop] [DEBUG] - -Dio.netty.noKeySetOptimization: {}
+2019-10-10 08:33:54,166 [main] [io.netty.channel.nio.NioEventLoop] [DEBUG] - -Dio.netty.selectorAutoRebuildThreshold: {}
+2019-10-10 08:33:54,182 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - Platform: Windows
+2019-10-10 08:33:54,183 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - -Dio.netty.noUnsafe: {}
+2019-10-10 08:33:54,183 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - Java version: {}
+2019-10-10 08:33:54,185 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - sun.misc.Unsafe.theUnsafe: available
+2019-10-10 08:33:54,185 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - sun.misc.Unsafe.copyMemory: available
+2019-10-10 08:33:54,186 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.Buffer.address: available
+2019-10-10 08:33:54,186 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - direct buffer constructor: available
+2019-10-10 08:33:54,187 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.Bits.unaligned: available, {}
+2019-10-10 08:33:54,187 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-10-10 08:33:54,187 [main] [io.netty.util.internal.PlatformDependent0] [DEBUG] - java.nio.DirectByteBuffer.<init>(long, int): {}
+2019-10-10 08:33:54,187 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - sun.misc.Unsafe: {}
+2019-10-10 08:33:54,188 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.tmpdir: {} (java.io.tmpdir)
+2019-10-10 08:33:54,188 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.bitMode: {} (sun.arch.data.model)
+2019-10-10 08:33:54,189 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.maxDirectMemory: {} bytes
+2019-10-10 08:33:54,189 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.uninitializedArrayAllocationThreshold: {}
+2019-10-10 08:33:54,190 [main] [io.netty.util.internal.CleanerJava6] [DEBUG] - java.nio.ByteBuffer.cleaner(): available
+2019-10-10 08:33:54,190 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - -Dio.netty.noPreferDirect: {}
+2019-10-10 08:33:54,198 [main] [io.netty.util.internal.PlatformDependent] [DEBUG] - org.jctools-core.MpscChunkedArrayQueue: available
+2019-10-10 08:33:54,248 [main] [io.netty.util.ResourceLeakDetector] [DEBUG] - -D{}: {}
+2019-10-10 08:33:54,248 [main] [io.netty.util.ResourceLeakDetector] [DEBUG] - -D{}: {}
+2019-10-10 08:33:54,250 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.numHeapArenas: {}
+2019-10-10 08:33:54,250 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.numDirectArenas: {}
+2019-10-10 08:33:54,251 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.pageSize: {}
+2019-10-10 08:33:54,251 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.maxOrder: {}
+2019-10-10 08:33:54,251 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.chunkSize: {}
+2019-10-10 08:33:54,251 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.tinyCacheSize: {}
+2019-10-10 08:33:54,251 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.smallCacheSize: {}
+2019-10-10 08:33:54,251 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.normalCacheSize: {}
+2019-10-10 08:33:54,251 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.maxCachedBufferCapacity: {}
+2019-10-10 08:33:54,251 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.cacheTrimInterval: {}
+2019-10-10 08:33:54,251 [main] [io.netty.buffer.PooledByteBufAllocator] [DEBUG] - -Dio.netty.allocator.useCacheForAllThreads: {}
+2019-10-10 08:33:54,254 [main] [io.netty.util.internal.InternalThreadLocalMap] [DEBUG] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: {}
+2019-10-10 08:33:54,254 [main] [io.netty.util.internal.InternalThreadLocalMap] [DEBUG] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: {}
+2019-10-10 08:33:54,273 [main] [io.netty.channel.DefaultChannelId] [DEBUG] - -Dio.netty.processId: {} (auto-detected)
+2019-10-10 08:33:54,275 [main] [io.netty.util.NetUtil] [DEBUG] - -Djava.net.preferIPv4Stack: {}
+2019-10-10 08:33:54,275 [main] [io.netty.util.NetUtil] [DEBUG] - -Djava.net.preferIPv6Addresses: {}
+2019-10-10 08:33:54,820 [main] [io.netty.util.NetUtil] [DEBUG] - Loopback interface: {} ({}, {})
+2019-10-10 08:33:54,821 [main] [io.netty.util.NetUtil] [DEBUG] - Failed to get SOMAXCONN from sysctl and file {}. Default: {}
+2019-10-10 08:33:55,377 [main] [io.netty.channel.DefaultChannelId] [DEBUG] - -Dio.netty.machineId: {} (auto-detected)
+2019-10-10 08:33:55,950 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.allocator.type: {}
+2019-10-10 08:33:55,950 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.threadLocalDirectBufferSize: {}
+2019-10-10 08:33:55,950 [main] [io.netty.buffer.ByteBufUtil] [DEBUG] - -Dio.netty.maxThreadLocalCharBufferSize: {}
+2019-10-10 08:33:55,968 [nioEventLoopGroup-2-1] [io.netty.handler.logging.LoggingHandler] [INFO] - [id: 0x6f4cc0fd] REGISTERED
+2019-10-10 08:33:55,970 [nioEventLoopGroup-2-1] [io.netty.handler.logging.LoggingHandler] [INFO] - [id: 0x6f4cc0fd] BIND: 0.0.0.0/0.0.0.0:9999
+2019-10-10 08:33:55,972 [nioEventLoopGroup-2-1] [io.netty.handler.logging.LoggingHandler] [INFO] - [id: 0x6f4cc0fd, L:/0:0:0:0:0:0:0:0:9999] ACTIVE
+2019-10-10 08:36:48,611 [nioEventLoopGroup-2-1] [io.netty.handler.logging.LoggingHandler] [INFO] - [id: 0x6f4cc0fd, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x0cce582a, L:/127.0.0.1:9999 - R:/127.0.0.1:58926]
+2019-10-10 08:36:48,611 [nioEventLoopGroup-2-1] [io.netty.bootstrap.ServerBootstrap] [WARN] - Unknown channel option '{}' for channel '{}'
+2019-10-10 08:36:48,613 [nioEventLoopGroup-2-1] [io.netty.handler.logging.LoggingHandler] [INFO] - [id: 0x6f4cc0fd, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2019-10-10 08:36:48,643 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.maxCapacityPerThread: {}
+2019-10-10 08:36:48,643 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.maxSharedCapacityFactor: {}
+2019-10-10 08:36:48,643 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.linkCapacity: {}
+2019-10-10 08:36:48,643 [nioEventLoopGroup-3-1] [io.netty.util.Recycler] [DEBUG] - -Dio.netty.recycler.ratio: {}
+2019-10-10 08:36:48,652 [nioEventLoopGroup-3-1] [io.netty.buffer.AbstractByteBuf] [DEBUG] - -D{}: {}
+2019-10-10 08:36:48,652 [nioEventLoopGroup-3-1] [io.netty.buffer.AbstractByteBuf] [DEBUG] - -D{}: {}
+2019-10-10 08:36:48,653 [nioEventLoopGroup-3-1] [io.netty.util.ResourceLeakDetectorFactory] [DEBUG] - Loaded default ResourceLeakDetector: {}
+2019-10-10 08:37:19,872 [nioEventLoopGroup-2-1] [io.netty.handler.logging.LoggingHandler] [INFO] - [id: 0x6f4cc0fd, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0xd77fd963, L:/127.0.0.1:9999 - R:/127.0.0.1:59033]
+2019-10-10 08:37:19,872 [nioEventLoopGroup-2-1] [io.netty.bootstrap.ServerBootstrap] [WARN] - Unknown channel option '{}' for channel '{}'
+2019-10-10 08:37:19,873 [nioEventLoopGroup-2-1] [io.netty.handler.logging.LoggingHandler] [INFO] - [id: 0x6f4cc0fd, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2019-10-10 08:38:08,382 [nioEventLoopGroup-3-1] [io.netty.channel.DefaultChannelPipeline] [WARN] - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:375)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:648)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:583)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:500)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:462)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:897)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:745)
+2019-10-10 08:38:09,781 [nioEventLoopGroup-3-2] [io.netty.channel.DefaultChannelPipeline] [WARN] - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:375)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:648)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:583)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:500)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:462)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:897)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:745)
+2019-10-10 08:41:07,379 [nioEventLoopGroup-2-1] [io.netty.handler.logging.LoggingHandler] [INFO] - [id: 0x6f4cc0fd, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x676d67e3, L:/127.0.0.1:9999 - R:/127.0.0.1:59344]
+2019-10-10 08:41:07,379 [nioEventLoopGroup-2-1] [io.netty.bootstrap.ServerBootstrap] [WARN] - Unknown channel option '{}' for channel '{}'
+2019-10-10 08:41:07,380 [nioEventLoopGroup-2-1] [io.netty.handler.logging.LoggingHandler] [INFO] - [id: 0x6f4cc0fd, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2019-10-10 08:41:48,945 [nioEventLoopGroup-2-1] [io.netty.handler.logging.LoggingHandler] [INFO] - [id: 0x6f4cc0fd, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0xeff890d6, L:/127.0.0.1:9999 - R:/127.0.0.1:59559]
+2019-10-10 08:41:48,945 [nioEventLoopGroup-2-1] [io.netty.bootstrap.ServerBootstrap] [WARN] - Unknown channel option '{}' for channel '{}'
+2019-10-10 08:41:48,946 [nioEventLoopGroup-2-1] [io.netty.handler.logging.LoggingHandler] [INFO] - [id: 0x6f4cc0fd, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2019-10-10 08:43:54,183 [nioEventLoopGroup-3-3] [io.netty.channel.DefaultChannelPipeline] [WARN] - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:375)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:648)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:583)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:500)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:462)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:897)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:745)
+2019-10-10 08:43:56,277 [nioEventLoopGroup-3-4] [io.netty.channel.DefaultChannelPipeline] [WARN] - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:375)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:648)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:583)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:500)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:462)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:897)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:745)
